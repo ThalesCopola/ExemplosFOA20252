@@ -8,7 +8,7 @@ idade = Convert.ToByte(Console.ReadLine());
 Console.WriteLine("Ola " + nome + ". A idade informada foi {0}", idade);
 */
 
-
+/*
 try
 {
     decimal salario, irpfDevido;
@@ -40,5 +40,14 @@ catch (Exception e)
     Console.WriteLine("Ocorreu um erro. Entre em contato com o suporte técnico");
     Console.WriteLine(e.ToString());
 }
+*/
+
+using ConceitosBasicos.uteis;
+
+SomaDoisNumeros somaDoisNumeros;
+somaDoisNumeros = new SomaDoisNumeros();
+int result;
+result = somaDoisNumeros.Somar(20, 22);
+Console.WriteLine(result);
 
 
