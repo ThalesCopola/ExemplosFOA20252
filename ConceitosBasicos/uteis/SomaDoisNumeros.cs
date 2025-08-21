@@ -12,5 +12,15 @@ namespace ConceitosBasicos.uteis
         {
             return n1 + n2;
         }
+        
+    }
+    public class MetrosMilimetros
+    {
+        public static double Converter(double metros)
+        {
+            return metros * 1000;
+        }
+
+      
     }
 }

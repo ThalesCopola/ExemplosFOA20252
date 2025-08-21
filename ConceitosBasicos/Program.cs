@@ -51,3 +51,10 @@ result = somaDoisNumeros.Somar(20, 22);
 Console.WriteLine(result);
 
 
+
+double milimetros = MetrosMilimetros.Converter(3.5);
+Console.WriteLine(milimetros);
+
+
+
+
